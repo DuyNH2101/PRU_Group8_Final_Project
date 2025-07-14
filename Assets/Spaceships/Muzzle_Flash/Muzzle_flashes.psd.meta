@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Muzzle_flashes_0: -7953764814397572687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

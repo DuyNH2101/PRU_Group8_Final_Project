@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spaceship_01_NAVY BLUE_0: 1277385928091492175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spaceship_05_YELLOW_0: 483351183474712968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

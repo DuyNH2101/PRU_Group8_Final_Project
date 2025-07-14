@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alien-Frigate_0: 4012242120347690675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

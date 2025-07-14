@@ -797,7 +797,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      game shoots_0: 5509461889582716734
+      game shoots_1: -859785718392325534
+      game shoots_10: 6070550779211487829
+      game shoots_11: 6377339664784657328
+      game shoots_12: -4241096822885899316
+      game shoots_13: -1019204115415869872
+      game shoots_14: -3404961256678550717
+      game shoots_15: 8612727875247859593
+      game shoots_16: -3251090039142305733
+      game shoots_17: -471360749835234792
+      game shoots_18: 8582158657120761145
+      game shoots_19: 104488021165460266
+      game shoots_2: -830129960390884365
+      game shoots_20: 7763891601901833675
+      game shoots_21: -1183276616487439094
+      game shoots_22: 2332785496454695539
+      game shoots_23: 671044523824235585
+      game shoots_24: -6641047577314505639
+      game shoots_25: -1563085231068095303
+      game shoots_26: 4927779005361359629
+      game shoots_3: -8150854167978135695
+      game shoots_4: 3658746449475680121
+      game shoots_5: -2766616059260393731
+      game shoots_6: -984966561026095416
+      game shoots_7: 9021345269637272406
+      game shoots_8: 8966374984507715686
+      game shoots_9: 731727644230194109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

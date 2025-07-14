@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spaceship_03_PURPLE_0: 6917025849351871341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

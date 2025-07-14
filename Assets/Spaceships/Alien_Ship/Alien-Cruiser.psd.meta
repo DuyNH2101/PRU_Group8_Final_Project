@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alien-Cruiser_0: 4631684602164252742
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

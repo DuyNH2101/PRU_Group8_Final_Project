@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\",
+  "WorkspaceRootPath": "D:\\Pru_Final\\PRU_Group8_Final_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|d:\\hoc\\sem7\\pru212\\projects\\pru_group8_final_project\\assets\\scripts\\enemyscripts\\enemy1script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|d:\\pru_final\\pru_group8_final_project\\assets\\scripts\\enemyscripts\\enemy1script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemy1script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\assets\\scripts\\enemyscripts\\enemy2script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Pru_Final\\PRU_Group8_Final_Project\\assets\\scripts\\enemyscripts\\enemy2script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemy2script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Pru_Final\\PRU_Group8_Final_Project\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\assets\\scripts\\spawnerscripts\\spawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Pru_Final\\PRU_Group8_Final_Project\\assets\\scripts\\spawnerscripts\\spawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnerscripts\\spawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Pru_Final\\PRU_Group8_Final_Project\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\assets\\scripts\\backgroundscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|D:\\Pru_Final\\PRU_Group8_Final_Project\\assets\\scripts\\backgroundscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC03DC9-5CDD-ED11-5599-15EBAAABD46F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,17 +34,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 24,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Enemy1Script.cs",
-              "DocumentMoniker": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy1Script.cs",
+              "DocumentMoniker": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy1Script.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Enemy1Script.cs",
-              "ToolTip": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy1Script.cs",
+              "ToolTip": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy1Script.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\Enemy1Script.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAApAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T15:10:03.089Z",
               "EditorCaption": ""
@@ -53,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlayerScript.cs",
-              "DocumentMoniker": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\PlayerScript.cs",
+              "DocumentMoniker": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
-              "ToolTip": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAIwDoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -65,9 +161,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Enemy2Script.cs",
-              "DocumentMoniker": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy2Script.cs",
+              "DocumentMoniker": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy2Script.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Enemy2Script.cs",
-              "ToolTip": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy2Script.cs",
+              "ToolTip": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\EnemyScripts\\Enemy2Script.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\Enemy2Script.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,9 +173,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "SpawnerScript.cs",
-              "DocumentMoniker": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\SpawnerScripts\\SpawnerScript.cs",
+              "DocumentMoniker": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\SpawnerScripts\\SpawnerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnerScripts\\SpawnerScript.cs",
-              "ToolTip": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\SpawnerScripts\\SpawnerScript.cs",
+              "ToolTip": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\SpawnerScripts\\SpawnerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnerScripts\\SpawnerScript.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,9 +185,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "HealthBar.cs",
-              "DocumentMoniker": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\HealthBar.cs",
+              "DocumentMoniker": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBar.cs",
-              "ToolTip": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\HealthBar.cs",
+              "ToolTip": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\HealthBar.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthBar.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -101,9 +197,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BackgroundScroll.cs",
-              "DocumentMoniker": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\BackgroundScroll.cs",
+              "DocumentMoniker": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\BackgroundScroll.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundScroll.cs",
-              "ToolTip": "D:\\Hoc\\Sem7\\PRU212\\Projects\\PRU_Group8_Final_Project\\Assets\\Scripts\\BackgroundScroll.cs",
+              "ToolTip": "D:\\Pru_Final\\PRU_Group8_Final_Project\\Assets\\Scripts\\BackgroundScroll.cs",
               "RelativeToolTip": "Assets\\Scripts\\BackgroundScroll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

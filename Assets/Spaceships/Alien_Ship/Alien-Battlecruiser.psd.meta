@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alien-Battlecruiser_0: -7216238600047359899
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

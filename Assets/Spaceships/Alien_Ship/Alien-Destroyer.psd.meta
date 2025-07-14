@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alien-Destroyer_0: 8717290736748261151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
