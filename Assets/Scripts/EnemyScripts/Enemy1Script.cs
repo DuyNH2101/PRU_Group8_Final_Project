@@ -55,6 +55,7 @@ public class Enemy1Script : MonoBehaviour
         if (hitpoint <= 0)
         {
             Destroy(gameObject);
+            GameSessionScript.instance.AddScore(20);
             GameObject explosion = Instantiate(shipExplosion, transform.position, Quaternion.identity);
             Destroy(explosion, 0.4f);
         }

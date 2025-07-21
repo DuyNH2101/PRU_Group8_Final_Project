@@ -14,6 +14,9 @@ public class Enemy2Script : MonoBehaviour
     private float minY;
     private float maxY;
 
+    private float stopY;
+    private bool hasReachedTop = false;
+
 
     [SerializeField] Transform gun1;
     [SerializeField] Transform gun2;
@@ -28,26 +31,39 @@ public class Enemy2Script : MonoBehaviour
     {
         hitpoint = maxHitpoint;
         FindBoundaries();
-        StartCoroutine(Shoot());
     }
     void FindBoundaries()
     {
         Camera mainCamera = Camera.main;
         minX = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
-        maxX = mainCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x  ;
+        maxX = mainCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
 
         minY = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;
         maxY = mainCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
+
+        stopY = maxY - 2f;
     }
 
     void Update()
     {
-        
+        if (!hasReachedTop)
+        {
+            if (transform.position.y > stopY)
+            {
+                transform.position += Vector3.down * speed * Time.deltaTime;
+            }
+            else
+            {
+                hasReachedTop = true;
+                transform.position = new Vector3(transform.position.x, stopY, transform.position.z);
+                StartCoroutine(Shoot());
+            }
+        }
     }
     public void Fire()
     {
-        Instantiate(enemyBullet, gun1.position, Quaternion.Euler(0, 0, 90));
-        Instantiate(enemyBullet, gun2.position, Quaternion.Euler(0, 0, 90));
+        Instantiate(enemyBullet, gun1.position, Quaternion.Euler(0, 0, -90));
+        Instantiate(enemyBullet, gun2.position, Quaternion.Euler(0, 0, -90));
     }
     IEnumerator Shoot()
     {
@@ -75,6 +91,7 @@ public class Enemy2Script : MonoBehaviour
         if (hitpoint <= 0)
         {
             Destroy(gameObject);
+            GameSessionScript.instance.AddScore(100);
             GameObject explosion = Instantiate(shipExplosion, transform.position, Quaternion.identity);
             Destroy(explosion, 0.4f);
         }
