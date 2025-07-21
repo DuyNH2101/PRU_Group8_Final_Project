@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class EnemyBullet : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class EnemyBullet : MonoBehaviour
     private float maxX;
     private float minY;
     private float maxY;
+
+    private Vector2 moveDirection = Vector2.down;
 
     void Start()
     {
@@ -31,10 +34,23 @@ public class EnemyBullet : MonoBehaviour
             transform.position.y > maxY) {
             Destroy(gameObject);
         }
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        transform.Translate(moveDirection.normalized * speed * Time.deltaTime, Space.World);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(gameObject);
+    }
+    public void SetDirection(Vector2 direction)
+    {
+        moveDirection = direction;
+
+        
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+    }
+    public void SetDirection(float angleDegrees)
+    {
+        float rad = angleDegrees * Mathf.Deg2Rad;
+        SetDirection(new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)).normalized);
     }
 }

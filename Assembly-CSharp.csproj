@@ -63,17 +63,33 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy2Script.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy5Script.cs" />
-    <Compile Include="Assets\Scripts\SpawnerScripts\Spawner2Script.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\OpenChoiceLevel.cs" />
+    <Compile Include="Assets\Scripts\BulletScripts\EnemyAimMissile.cs" />
+    <Compile Include="Assets\Scripts\BossScripts\Boss3Script.cs" />
+    <Compile Include="Assets\Scripts\BossScripts\Boss2Script.cs" />
+    <Compile Include="Assets\Scripts\GameSessionScript.cs" />
     <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
+    <Compile Include="Assets\Scripts\BulletScripts\LaserWithWarning.cs" />
     <Compile Include="Assets\Scripts\BulletScripts\EnemyBullet.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\Enemy6Script.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\GameMenu.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy1Script.cs" />
+    <Compile Include="Assets\Scripts\BulletScripts\EnemySpreadBullet.cs" />
+    <Compile Include="Assets\Scripts\BulletScripts\EnemyAimBullet.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\SpawnerScripts\SpawnerScript.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy3Script.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy4Script.cs" />
-    <Compile Include="Assets\Scripts\SpawnerScripts\Spawner1Script.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\Enemy7Script.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\Enemy8Script.cs" />
+    <Compile Include="Assets\Scripts\GamePlayManageScripts\GameManagerScript.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\BackgroundScroll_X.cs" />
+    <Compile Include="Assets\Scripts\BossScripts\Boss1Script.cs" />
     <Compile Include="Assets\Scripts\BulletScripts\Player Bullet.cs" />
+    <Compile Include="Assets\Scripts\GamePlayManageScripts\WInSceneUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

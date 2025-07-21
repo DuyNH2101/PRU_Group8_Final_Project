@@ -1,5 +1,7 @@
+using NUnit.Framework;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] float maxHitpoint = 100f;
     private float hitpoint = 100f;
     [SerializeField] float padding = 0.4f;
+    private float healthbarSize = 1f;
 
     private Vector2 moveInput;
 
@@ -21,14 +24,30 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] GameObject playerBullet;
     [SerializeField] Transform gun1;
     [SerializeField] Transform gun2;
+    [SerializeField] Transform gun3;
     [SerializeField] float fireRate;
+    private int firingLevel = 0;
 
+    private float autoUpgradeTimer = 0f;
+    private float autoHealTimer = 0f;
+
+    private List<Func<IEnumerator>> firingLevelPattern;
+
+    [SerializeField] HealthBar healthBar;
+    [SerializeField] GameObject shipExplosion;
     void Start()
     {
+        firingLevelPattern = new List<Func<IEnumerator>>
+        {
+            LoopFireLevel1,
+            LoopFireLevel2,
+            LoopFireLevel3,
+            LoopFireLevel4,
+            LoopFireLevel5,
+        };
         hitpoint = maxHitpoint;
         FindBoundaries();
-        StartCoroutine(LoopFire());
-        
+        StartCoroutine(firingLevelPattern[firingLevel]());
     }
 
     void FindBoundaries()
@@ -57,37 +76,145 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         MovePlayer();
+        autoHealTimer += Time.deltaTime;
+        autoUpgradeTimer += Time.deltaTime;
+        if (autoHealTimer > 10f && hitpoint < maxHitpoint) 
+        {
+            autoHealTimer = 0f;
+            TakeDamage(-20f);
+        }
+        if (autoUpgradeTimer > 2f && firingLevel < 5)
+        {
+            autoUpgradeTimer = 0f;
+            firingLevel++;
+        }
+        
     }
-    IEnumerator LoopFire()
+    IEnumerator LoopFireLevel1()
+    {
+        yield return new WaitForSeconds(fireRate);
+        Instantiate(playerBullet, gun2.position, Quaternion.Euler(0, 0, -90));
+        Instantiate(playerBullet, gun3.position, Quaternion.Euler(0, 0, -90));
+        SoundManager.instance.playShootSound();
+        if(firingLevel == 1)
+        {
+            StartCoroutine(LoopFireLevel1());
+        }
+        else
+        {
+            StartCoroutine(firingLevelPattern[firingLevel]());
+        }
+
+    }
+    IEnumerator LoopFireLevel2()
+    {
+        yield return new WaitForSeconds(fireRate-0.2f);
+        Instantiate(playerBullet, gun2.position, Quaternion.Euler(0, 0, -90));
+        Instantiate(playerBullet, gun3.position, Quaternion.Euler(0, 0, -90));
+        SoundManager.instance.playShootSound();
+        if (firingLevel == 2)
+        {
+            StartCoroutine(LoopFireLevel2());
+        }
+        else
+        {
+            StartCoroutine(firingLevelPattern[firingLevel]());
+        }
+
+    }
+    IEnumerator LoopFireLevel3()
     {
         yield return new WaitForSeconds(fireRate);
         Instantiate(playerBullet, gun1.position, Quaternion.Euler(0, 0, -90));
         Instantiate(playerBullet, gun2.position, Quaternion.Euler(0, 0, -90));
-        StartCoroutine(LoopFire() );
+        Instantiate(playerBullet, gun3.position, Quaternion.Euler(0, 0, -90));
+        SoundManager.instance.playShootSound();
+        if (firingLevel == 3)
+        {
+            StartCoroutine(LoopFireLevel3());
+        }
+        else
+        {
+            StartCoroutine(firingLevelPattern[firingLevel]());
+        }
+
+    }
+    IEnumerator LoopFireLevel4()
+    {
+        yield return new WaitForSeconds(fireRate - 0.2f);
+        Instantiate(playerBullet, gun1.position, Quaternion.Euler(0, 0, -90));
+        Instantiate(playerBullet, gun2.position, Quaternion.Euler(0, 0, -90));
+        Instantiate(playerBullet, gun3.position, Quaternion.Euler(0, 0, -90));
+        SoundManager.instance.playShootSound();
+        if (firingLevel == 4)
+        {
+            StartCoroutine(LoopFireLevel4());
+        }
+        else
+        {
+            StartCoroutine(firingLevelPattern[firingLevel]());
+        }
+
+    }
+    IEnumerator LoopFireLevel5()
+    {
+        yield return new WaitForSeconds(fireRate - 0.2f);
+        Instantiate(playerBullet, gun1.position, Quaternion.Euler(0, 0, -80));
+        Instantiate(playerBullet, gun1.position, Quaternion.Euler(0, 0, -100));
+        Instantiate(playerBullet, gun2.position, Quaternion.Euler(0, 0, -90));
+        Instantiate(playerBullet, gun3.position, Quaternion.Euler(0, 0, -90));
+        SoundManager.instance.playShootSound();
+
+        StartCoroutine(LoopFireLevel5());
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision == null) return;
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy Bullets"))
         {
-            hitpoint -= 20f;
+            TakeDamage(20f);
         }
         if(collision.gameObject.layer == LayerMask.NameToLayer("Enemy Small"))
         {
-            hitpoint -= 20f;
+            TakeDamage(20f);
         }
         if(collision.gameObject.layer == LayerMask.NameToLayer("Enemy Medium"))
         {
-            hitpoint -= 60f;
+            TakeDamage(60f);
         }
         if(collision.gameObject.layer == LayerMask.NameToLayer("Enemy Boss"))
         {
-            hitpoint -= 100f;
+            TakeDamage(100f);
         }
-
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Enemy Missle"))
+        {
+            TakeDamage(40f);
+        }
         if(hitpoint <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void TakeDamage(float damage)
+    {
+        if (damage >= 0)
+        {
+            SoundManager.instance.playBeingHitSound();
+        }
+        if (hitpoint > 0)
+        {
+            hitpoint -= damage;
+            healthbarSize -= damage / maxHitpoint;
+            healthBar.SetSize(healthbarSize);
+            Debug.Log("Current HP: " + hitpoint + ", Current bar size:" + healthbarSize);
+        }
+        if (hitpoint <= 0)
+        {
+            Destroy(gameObject);
+            GameObject explosion = Instantiate(shipExplosion, transform.position, Quaternion.identity);
+            Destroy(explosion, 0.4f);
         }
     }
 }
